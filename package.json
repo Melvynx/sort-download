@@ -6,7 +6,8 @@
     "typescript": "^4.4.4"
   },
   "scripts": {
-    "dev": "ts-node src/dl.ts"
+    "dev": "ts-node src/main.ts",
+    "compile": "tsc"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",
