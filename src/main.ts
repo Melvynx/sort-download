@@ -49,6 +49,8 @@ const readDownloadDir = (downloadPath: string) =>
 
         const extension = file.split('.').pop();
 
+        if (!extension) return;
+
         Object.values(downloadFileSort).forEach((value) => {
           if (value.extensions.includes(extension)) {
             logger.debug(`Add file into ${value.path}`);
