@@ -13,7 +13,7 @@ type DownloadFileSort = Record<
 const downloadFileSort: DownloadFileSort = {
   images: {
     path: '/Users/melvynmalherbe/Downloads/images',
-    extensions: ['jpeg', 'jpg', 'png', 'HEIC'],
+    extensions: ['jpeg', 'jpg', 'png', 'heic', 'webp'],
     files: [],
   },
   vector: {
@@ -47,7 +47,7 @@ const readDownloadDir = (downloadPath: string) =>
         logger.debug(`Read file: ${file}`);
         if (!file.includes('.')) return;
 
-        const extension = file.split('.').pop();
+        const extension = file.split('.').pop().toLowerCase();
 
         if (!extension) return;
 
