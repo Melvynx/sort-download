@@ -33,7 +33,7 @@ const downloadFileSort: DownloadFileSort = {
   },
   other: {
     path: '/Users/melvynmalherbe/Downloads/other',
-    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json'],
+    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json', 'woff'],
     files: [],
   },
 };
