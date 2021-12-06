@@ -33,7 +33,14 @@ const downloadFileSort: DownloadFileSort = {
   },
   other: {
     path: '/Users/melvynmalherbe/Downloads/other',
-    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json', 'woff'],
+    // prettier-ignore
+    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json', 'woff', 'woff2'],
+    files: [],
+  },
+  dev: {
+    path: '/Users/melvynmalherbe/Downloads/other/dev',
+    // prettier-ignore
+    extensions: ['js', 'ts', 'tsx', 'html', 'css', 'scss', 'sass', 'less', 'md', 'yml', 'rb', 'py', 'sh', 'json', 'yaml', 'xml', 'go'],
     files: [],
   },
 };
