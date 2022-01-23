@@ -34,7 +34,7 @@ const downloadFileSort: DownloadFileSort = {
   other: {
     path: '/Users/melvynmalherbe/Downloads/other',
     // prettier-ignore
-    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json', 'woff', 'woff2'],
+    extensions: ['zip', 'rtf', 'txt', 'xlsx', 'fig', 'dmg', 'json', 'woff', 'woff2', 'wav', 'db', 'xip'],
     files: [],
   },
   dev: {
